@@ -1,0 +1,60 @@
+import { Inbox } from "common/types/common.type";
+
+export const inbox: Inbox[] = [
+  {
+    id: "38v8ury2e7eleynh2h3",
+    name: "Sakshi",
+    image: "/assets/images/sakshi.jpeg",
+    lastMessage: "Testing",
+    notificationsCount: 5,
+    messageStatus: "SENT",
+    timestamp: "08:21",
+    isPinned: true,
+  },
+  {
+    id: "38v8ury2e80leynh9lp",
+    name: "Yashraj ",
+    image: "/assets/images/profile.png",
+    lastMessage: "Hello there!",
+    notificationsCount: 2,
+    messageStatus: "SENT",
+    timestamp: "12:15",
+    isPinned: true,
+    isOnline: true,
+  },
+  {
+    id: "38v8ury2e8hleynhflu",
+    name: "Yash",
+    image: "/assets/images/yash.jpeg",
+    lastMessage: "How are you?",
+    notificationsCount: 0,
+    messageStatus: "READ",
+    timestamp: "6:47",
+  },
+  {
+    id: "38v8ury2e8yleynhli9",
+    name: "Srajan",
+    image: "/assets/images/Srajan.jpeg",
+    lastMessage: "See you tomorrow!",
+    messageStatus: "SENT",
+    timestamp: "09:35",
+  },
+  {
+    id: "38v8ury2e9cleynhqgh",
+    name: "Aaarya",
+    image: "/assets/images/Aarya.jpeg",
+    lastMessage: "Thanks for your help!",
+    messageStatus: "DELIVERED",
+    timestamp: "5:22",
+  },
+  {
+    id: "38v8ury2ectleyniehz",
+    name: "Ram",
+    image: "/assets/images/ram.jpeg",
+    lastMessage: "Are you free tonight?",
+    messageStatus: "READ",
+    timestamp: "4:10",
+    isOnline: true,
+  },
+  
+];
